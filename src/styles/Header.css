@@ -1,0 +1,44 @@
+*{
+    font-family:'Montserrat', sans-serif;
+}
+
+
+.home-header{
+position: absolute;
+width: 1240px;
+height: 68px;
+left: 100px;
+top: 40px;
+border:  1px black solid;
+}
+
+.home-logo {
+position: absolute;
+left: 0%;
+right: 83.04%;
+top: 0%;
+bottom: 0%;
+}
+
+.home-nav{
+display: flex;
+justify-content: space-around;
+position: absolute;
+left: 75.08%;
+right: 0%;
+top: 25%;
+bottom: 25%;
+height: 34px;
+width: 309px;
+left: 931px;
+top: 17px;
+border-radius: nullpx;
+}
+
+.home-nav-div {
+font-weight: 500;
+font-size:24px;
+line-height :34.22px;
+text-align: right;
+color:rgb(255, 96, 96);
+}
