@@ -9,8 +9,8 @@ function QuestionForm(){
     function checkValue(value) {
     if (!value.includes('f')) {
         setInputValue(value)
-    } else {
-        
+    } else { 
+
     }
 }
     
