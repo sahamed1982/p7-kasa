@@ -1,8 +1,12 @@
+import BannerAbout from "../components/BannerAbout"
+import AboutContent from "../components/AboutContent"
+
 
 function About(){
     return(
     <div>
- PAGES ABOUT
+        <BannerAbout/>
+        <AboutContent/>
     </div>
     )
 }

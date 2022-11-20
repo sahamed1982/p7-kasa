@@ -6,9 +6,24 @@
   left: 100px;
   top: 171px;
   background-image: url("../assets/backgroung-img.svg");
-  border: red 1px solid;
+  filter: contrast(2);
   border-radius: 25px;
+
+  /* PAGE ABOUT */
 }
+.sectionAbout {
+  overflow: hidden;
+  position: absolute;
+  width: 1240px;
+  height: 223px;
+  left: 100px;
+  top: 171px;
+  background-image: url("../assets/background-About-img.svg");
+  filter: contrast(2);
+  border-radius: 25px;
+ 
+}
+
 
 .banner-container {
   position: absolute;
@@ -16,16 +31,21 @@
   height: 223px;
 
   opacity: 66%;
-  background: #000000;
+  filter: brightness(1.5);
+  background: #363636;
 
   border-radius: 25px;
 }
 .banner-title {
+  
   position: absolute;
-  left: 25.9%;
+  width:705px;
+  height:65px;
+  left: 20.9%;
   right: 25.14%;
-  top: 50%;
+  top: 24.32%;
   bottom: 69.04%;
+   
 
   font-family: "Montserrat" sans-serif;
   font-style: normal;
@@ -37,5 +57,5 @@
   display: flex;
   align-items: flex-end;
 
-  color: #ffffff;
+  color:rgb(255, 255, 255)   ;
 }

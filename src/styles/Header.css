@@ -9,7 +9,6 @@ width: 1240px;
 height: 68px;
 left: 100px;
 top: 40px;
-border:  1px black solid;
 }
 
 .home-logo {
@@ -35,7 +34,18 @@ top: 17px;
 border-radius: nullpx;
 }
 
+.nav-link{
+    text-decoration:none;
+    color: #FF6060;
+}
+
+.nav-link:hover{
+    text-decoration:none;
+    color: #FF6060;
+    border-bottom: #FF6060 1px solid;
+}
 .home-nav-div {
+text-decoration:none;
 font-weight: 500;
 font-size:24px;
 line-height :34.22px;

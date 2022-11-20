@@ -1,0 +1,10 @@
+.about-component-wrapper {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    height: fit-content;
+    justify-content: space-between;
+    margin-top:181px;
+    margin-left: 190px;
+
+}
