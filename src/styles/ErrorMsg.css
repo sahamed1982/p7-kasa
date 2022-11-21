@@ -53,6 +53,17 @@
   /* identical to box height, or 26px */
   display: flex;
   align-items: flex-end;
-  text-decoration-line: underline;
+  
   color: #ff6060;
+}
+
+.nav-link{
+  text-decoration:none;
+  color: #FF6060;
+}
+
+.nav-link:hover{
+  text-decoration:none;
+  color: #FF6060;
+
 }

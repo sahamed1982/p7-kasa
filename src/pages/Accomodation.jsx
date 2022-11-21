@@ -1,11 +1,9 @@
-function Accomodation() {
-  return (
-    <div>
-       PAGES ACCOMODATION
-    </div>
-    
+import AccomodationSolo from "../components/AccomodationSolo"
 
-  );
+function Accomodation() {
+  return(
+    <AccomodationSolo />
+  )
 }
 
 export default Accomodation;

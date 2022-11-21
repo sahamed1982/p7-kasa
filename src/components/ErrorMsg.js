@@ -1,4 +1,5 @@
 import '../styles/ErrorMsg.css'
+import { Link } from 'react-router-dom'
 
 function Error(){
     return(
@@ -10,7 +11,7 @@ function Error(){
                 Oups! La page que vous demandez n'existe pas.
             </div>
             <div className="error-return">
-                Retourner sur la page d'accueil.
+            <Link to="/" className="nav-link">Retourner sur la page d'accueil.</Link>
             </div>
         </div>
     )
